@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 TextView text1 = (TextView) findViewById(R.id.textView);
-                text1.setText("Baby");
+                text1.setText("Hello");
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 TextView text2 = (TextView) findViewById(R.id.textView2);
-                text2.setText("Mama");
+                text2.setText("Android");
             }
         });
         //text1.setText("Baby");
